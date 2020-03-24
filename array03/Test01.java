@@ -6,7 +6,6 @@ public class Test01 {
 		char arr[]= {'가','나','다','라','마'};
 		char arr2[]= new char[5];
 		for (int i = 0; i < arr.length; i++) {
-			System.out.println(arr[i]);
 			int j=arr.length-1-i;
 			arr2[j]=arr[i];
 			
