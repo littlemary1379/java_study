@@ -8,7 +8,7 @@ public class Coffee {
 	private int price;
 
 	public Coffee(MenuItem meunitem) {
-		super();
+
 		this.name = meunitem.getName();
 		this.price = meunitem.getPrice();
 	}
